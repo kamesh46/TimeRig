@@ -32,4 +32,12 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	var $helpers = array('Html','Js','Session','Form');
+	var $layout = "default";		
+    public function beforeFilter() {
+		$this->set("keywords_for_page","TimeRig");
+		$this->set('description_for_page','TimeRig');		
+		$this->set('title_for_layout','TimeRig');				
+    }
+
 }
