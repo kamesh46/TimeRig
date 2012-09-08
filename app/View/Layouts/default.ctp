@@ -51,6 +51,7 @@
 	echo $this->Html->script('/boot/docs/js/application.js')."\n\t";				
 	echo $this->Html->css('/boot/docs/assets/css/bootstrap.css')."\n\t";
 	echo $this->Html->css('/boot/docs/assets/css/bootstrap-responsive.css')."\n\t";
+	echo $this->Html->css('/boot/docs/assets/css/docs.css')."\n\t";	
 	echo $this->Html->css('/boot/docs/assets/js/google-code-prettify/prettify.css')."\n\t";	
 
 
