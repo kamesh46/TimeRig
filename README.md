@@ -2,4 +2,8 @@ TimeRig
 =======
 
 TimeRig
-Please add me
+
+
+**Authors**
+Nilam Doctor
+Om Doctor
